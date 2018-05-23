@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,ListActivity.class);
         intent.putExtra("type","fruits");
         startActivity(intent);
-        Toast.makeText(this, "hi", Toast.LENGTH_SHORT).show();
     }
 
     public void getVegitables(View view) {
