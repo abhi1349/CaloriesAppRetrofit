@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("type","fruits");
         startActivity(intent);
         Toast.makeText(this, "Add some changes in Branch01", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Add one more changes in Branch01", Toast.LENGTH_SHORT).show();
     }
 
     public void getVegitables(View view) {
